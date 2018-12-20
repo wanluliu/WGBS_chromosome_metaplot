@@ -7,7 +7,8 @@
 ## Input file 1
 *methratio_files.txt*
 tab-delimited
-Ccount & CTcount over chromosomes,  containing chromosome,start position, end position, Ccount, CTcount. Example is shown below: 
+Ccount & CTcount over chromosomes,  containing chromosome,start position, end position, Ccount, CTcount. 
+Example file *Ler1_total.bam_ler_chr3_100kb_CG.txt* is shown below: 
 
 ---
 ```
@@ -22,7 +23,7 @@ ENA_LUHQ01000003_LUHQ01000003_1	300001	400001	5763	63172
 *configure_file.txt*
 tab-delimited
 configure file contains the name of *methratio_files.txt* as well as the type (CG/CHG/CHH) and genotype of the methratio_files.txt.
-Example is shown below: 
+Example *configure.txt* is shown below: 
 
 ---
 ```
@@ -32,3 +33,4 @@ Ler1_total.bam_ler_chr3_100kb_CHH.txt	CHH	ler	ler1
 ```
 ## Output figure
 metaplot over whole chromosome in pdf format.
+Example output is in *Ler_100kb_metaplot.pdf*.
