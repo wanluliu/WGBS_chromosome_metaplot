@@ -1,7 +1,7 @@
 library(RColorBrewer)
 library(caTools)
 
-configure=read.delim("configure_LerDRMnoNLS.txt",header=FALSE)
+configure=read.delim("configure.txt",header=FALSE)
 meth.df=list()
 for (i in 1:nrow(configure)){
   meth=read.delim(as.character(configure[i,1]),header=TRUE)
@@ -13,7 +13,7 @@ for (i in 1:nrow(configure)){
 plot.df=do.call(rbind,meth.df)
 col=brewer.pal(length(levels(configure[,4])),"Paired")
 library(ggplot2)
-pdf("LerDRMNLS_100kb_metaplot.pdf",height=2,width=5)
+pdf("Ler_100kb_metaplot.pdf",height=2,width=5)
 p=ggplot(plot.df,aes(x=pos,y=methratio,color=facet))
 p+geom_line(alpha=1)+facet_grid(type~.,scales="free",space="free_x")+
   theme_bw()+theme(panel.grid.major = element_line(colour =  NA))+
