@@ -1,1 +1,1 @@
-# Ler_Metaplot_100kb_chr3_github
+# Metaplot R script for WGBS of Lansberg ecotype (chromosome 3 only, 100kb resolution)
