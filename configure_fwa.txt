@@ -1,0 +1,3 @@
+fwa_total.bam_tair10_100kb_CG.txt	CG	fwa	fwa
+fwa_total.bam_tair10_100kb_CHG.txt	CHG	fwa	fwa
+fwa_total.bam_tair10_100kb_CHH.txt	CHH	fwa	fwa
