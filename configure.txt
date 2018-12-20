@@ -1,0 +1,3 @@
+Ler1_total.bam_ler_chr3_100kb_CG.txt	CG	ler	ler1
+Ler1_total.bam_ler_chr3_100kb_CHG.txt	CHG	ler	ler1
+Ler1_total.bam_ler_chr3_100kb_CHH.txt	CHH	ler	ler1
